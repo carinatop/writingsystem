@@ -31,3 +31,8 @@ Open:
 - Typed Supabase browser client utility.
 - Anthropic client utility.
 - Architecture blueprint doc in `docs/ai-seo-content-system-blueprint.md`.
+
+## Security baseline
+
+- Next.js pinned to a patched release line for CVE-2025-66478/55182 compatibility on Netlify (`next@15.5.7`).
+- React pinned to patched 19.2.1.
